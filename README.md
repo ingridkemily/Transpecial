@@ -43,7 +43,8 @@ Quando agendado terá o prazo determinado pela urbes para a confimação da soli
 4. A partir dai é só rodar o código em seu desktop e realizar as alterações para contribuição
 
 
-## Linguagens utilizadas
+## Linguagens utilizadas 
+Criamos esse repositório no Visual Studios Code e utilizamos as extensões para:
 - HTML
 - CSS
 - JAVASCRIPT
