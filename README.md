@@ -1,88 +1,60 @@
-TRANSPECIAL
+# TRANSPECIAL
+Um projeto voltado ao agendamento do transporte especial, embasado na cidade de Sorocaba e suas necessidades.
+o Site irá ser voltado para público que utiliza o transporte especial, aqueles que não possuem condições 
+financeiras para arcar com os altos custos de um transporte particular adaptado. Sendo uma ferramenta para por
+em prática a inclusão social dessas pessoas, permitindo que elas tenham acesso a serviços básicos como saúde, educação e lazer com fácil acesso.
 
-Versão: 1.0
-
-Status do Projeto:⚠️ Em andamento
-
-Tópicos desse README.md
-## Descrição do projeto
 
 ## Funcionalidades
+- Praticidade para a urbes e empresa contratada pela prefeitura
+- Agendamento de transporte
+- Consulta de agendamentos futuros  
+
 
 ## Distribuição
+*Link para teste da versão disponibilizada.* 
+
 
 ## Pré-requisitos
+- Instalar o Visual Studio Code (caso não possuir)
+1. Acesse o site oficial do Visual Studio Code em     `https://code.visualstudio.com/. `
+2. Clique no botão "Download" para baixar o instalador do VS Code.
+3. Execute o instalador e siga as instruções para concluir a instalação
+
+
+- Configurar as extensões para executar HTML e CSS
+1. Para configurar o VScode basta baixar os pacotes que você deseja usar. Na barra lateral esquerda existe um ícone que lhe trará a biblioteca com os pacotes disponíveis para a plataforma, basta pesquisar.
+2. Busque por HTML e etc, que os pacotes compatíveis serão exibidos na sua busca. 
+3. Após localiza-los, basta instalar, ai tornará seu programa apto para lidar com essas modalidades.
+
 
 ## Como rodar a aplicação
+Primeiramente terá que acessar o link do site, após isso terá um login que será o número de passageiro (numeração única disponibilizada pela secretaria da cidadania de cada município) como usuário e uma senha que será sequêncial da secretaria também!
+Sendo assim no site terá acesso ao agendamento do transporte, com as tarjas de lazer, fisioterapia, consulta médica, entre outras.
+Também terá as telas de cancelamento ou vizualização do histórico de solicitações.
 
-## Testes realizados
+Quando agendado terá o prazo determinado pela urbes para a confimação da solicitação, devido a prioridade para consultas médicas ou necessidades relacionadas a saúde.
 
-## Banco de Dados
 
-## Linguagens, dependências e libs utilizadas
+## Desenvolvedores e contribuintes
+1. Abra o Visual Studio
+2. Na janela inicial, selecione Clonar um repositório
+3. Insira ou digite a localização do repositório e, em seguida, selecione o botão Clonar
+4. A partir dai é só rodar o código em seu desktop e realizar as alterações para contribuição
 
-## Novas Recursos
+
+## Linguagens utilizadas
+- HTML
+- CSS
+- JAVASCRIPT
+
 
 ## Resolvendo problemas
+iremos listar algumas dificuldades encontradas em nosso projeto e conforme forem resolvidas iremos atualizar esse documento.
+- Como realizar um cadastro do usuário sem ferir as normas legais do município
+- Atualização de senha devido ser algo relacionado a secretaria da cidadania e urbes
+- Aplicação do javascript devido a falta de conhecimentos 
 
-## Recursos inseridos 
-
-## Desenvolvedores/Contribuintes
-
-## Informações Extras
-
-
-## Descrição do projeto
-Descrição breve do projeto compondo um paragrafo ou dois.
-
-## Funcionalidades ⚙️
-✔️ Funcionalidade 1
-
-✔️ Funcionalidade 2
-
-✔️ Funcionalidade 3
-
-✔️ Funcionalidade 4
-
-## Distribuição
-Link para teste da versão disponibilizada.
-
-## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
-
-## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
-
-## Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
-
-## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
-
-## Linguagens, dependencias e libs utilizadas 📚
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
-
-## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
-
-## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
-
-📝 Tarefa 1
-
-📝 Tarefa 2
-
-📝 Tarefa 3
-
-## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
 
 ## Licença
 MIT License
@@ -105,3 +77,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
