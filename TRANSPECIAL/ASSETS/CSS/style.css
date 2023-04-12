@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100px;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to bottom right, rgb(59, 157, 218) 0%, rgb(34, 171, 164) 40%,
+            rgb(122, 191, 108) 60%, rgb(250, 214, 50) 100%);
+    animation: gradientEffect 4s linear infinite alternate;
+
+}
+
+.header {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.logoimg {
+    width: 190px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 40px;
+}
+
+.img_logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li a:hover,
+.menu .active a {
+    border-bottom: 5px solid #ffffff;
+    color: rgb(102, 102, 102)
+}
+
+.button {
+    display: inline-block;
+    background-color: #5ecff1;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
