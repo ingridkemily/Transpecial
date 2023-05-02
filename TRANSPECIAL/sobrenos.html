@@ -1,126 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Erocky</title>
-    <meta
-      name="viewport"
-      content="width=device-width,minimun-scale=1,initial-scale=1"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link 
-      rel="icon" type="imagem/png" 
-      href="ASSETS/IMAGES/icon.png"
-    />
-    <link rel="stylesheet" type="text/css" href="ASSETS/IMAGES/icon.png" />
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <div class="logo">
-          <div class="logoimg">
-            <img class="img_logo" src="ASSETS/IMAGES/logodes.png" alt="Logo" />
-          </div>
-        </div>
-        <div class="menu">
-          <nav>
-            <ul>
-              <li class="active"><a href="">Sobre o transporte</a></li>
-              <li><a href="login.html">Login</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!--<main>
-      <section class="banner" id="banner">
-        <div class="sliders" style="margin-left: 0">
-          <div class="slide">
-            <div class="vidro">
-              <div class="slidearea">
-                <h1>Full Digital <br /><span>Performance</span></h1>
-                <h2>Não sabe por onde começar?</h2>
-                <a href="https://wa.me/5515997960047?text=Oi,%20aqui%20%C3%A9%20%E2%80%A6%0ATudo%20bem" target="_blank" class="button">Entre em contato agora</a>
-              </div>
-            </div>
-          </div>
-          <div class="slide">
-            <div class="slidearea">
-              <h1>Design is about <br /><span>Communication</span></h1>
-              <h2>Entre em contato agora</h2>
-              <a href="https://wa.me/5515997960047?text=Oi,%20aqui%20%C3%A9%20%E2%80%A6%0ATudo%20bem" target="_blank" class="button">Get in touch!</a>
-            </div>
-          </div>
-        </div>
-        <div
-          id="sliders-pointers"
-          class="sliders-pointers"
-          style="text-align: center">
-      </section>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Transpecial</title>
+    <link rel="stylesheet" href="css/default.css" type="text/css">
+    <link rel="stylesheet" href="css/sobre.css" type="text/css">
+    <link rel="shortcut icon" href="src/icone.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com"> 
+    <script src="js/default.js"></script>
 
-      <section class="default light">
-        <div class="section-title">Sobre nós</div>
-        <div class="section-desc">Quem nós somos</div>
-        <div class="section-body">
-          <div class="section-aboutus">
-            <div class="section-aboutus--left">
-              <p>
-                Fundada por ex-funcionários do Google e especializada em
-                Marketing Digital.
-              </p>
-              <br />
-              <p>
-                <b
-                  >Nosso objetivo é gerar resultados através de campanhas de
-                  performance no meio online e construir relacionamentos
-                  duradouros com nossos clientes.</b
-                >
-              </p>
-              <br />
-              <p>
-                Marketing Digital deve ser feito com base em dados. Por isso,
-                nossa equipe é composta por engenheiros e matemáticos, com
-                perfil analítico e conhecimentos estatísticos para tomarem as
-                melhores decisões para nossos clientes. Somos especialistas em
-                diversas plataformas para executar estratégias inteligentes
-                independentemente do segmento, público ou objetivo que se deseja
-                alcançar.
-              </p>
-            </div>
-            <div class="section-aboutus--right">
-              <img src="media/nos.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+</head>
+<body>
 
-    <footer>
-      <div class="footer--area">
-        <div class="footer--item area1">
-          <div class="footer-social">
-            <a href="https://www.linkedin.com/in/elisa-bergamo-grusca-6303371b7" target="_blank"><img src="assets/images/linkedin.png" /></a>
-            <a href="https://www.facebook.com/profile.php?id=100007828816096" target="_blank"><img src="assets/images/facebook.png" /></a>
-            <a href=""><img src="assets/images/googleplus.png" /></a>
-            <a href=""><img src="assets/images/pinterest.png" /></a>
+    <div class="menu">
+        <a href="sobre.html">
+            <img src="src/logo_transpecial.png" alt="Logo Transpecial">
+          </a>
+        <div class="menu-right">
+          <a href="sobre.html" id="link-sobre-nos">Sobre Nós</a>
+          <a href="agendar.html" id="link-agendar">Agendar</a>
+          <a href="consultar.html" id="link-consultar">Consultar</a>
+          <a href="login.html" id="link-login">Login</a>
+        </div>
+    </div>
+
+    <div class="container">
+    <h1> Transpecial, Transporte Especializado para pessoas com deficiência</h1>
+   
+    <!-- seções da página -->
+
+        <p style="margin-left: 20px; margin: 15px; text-indent: 20px;">      Sabemos que a mobilidade pode ser um desafio para muitas pessoas,  especialmente para aqueles com necessidades especiais. É por isso que criamos um serviço de transporte acessível e flexível para atender às necessidades únicas desse grupo. Nosso serviço é projetado para ajudar nossos clientes a alcançarem suas metas pessoais e profissionais. Seja para tratamentos
+        médicos, educação, trabalho, socialização, esporte ou lazer.</p>
+        
+        <div id="carousel-container">
+            <div id="carousel">
+              <img src="src/img1.jpg" alt="Imagem 1">
+              <img src="src/img2.jpg" alt="Imagem 2">
+              <img src="src/img3.jpg" alt="Imagem 3">
+            </div>
+            <button id="prev">&#10094;</button> <!-- botão "anterior" -->
+            <button id="next">&#10095;</button> <!-- botão "próximo" -->
           </div>
+
+        <p style="margin-left: 20px; margin-top: 15px; text-indent: 20px;"> Com nosso sistema de agendamento fácil de usar, nossos clientes podem reservar um ônibus para a hora e local que melhor se adequa às suas necessidades. Nosso serviço é altamente personalizado, para que possamos acomodar todas as necessidades de mobilidade, incluindo cadeiras de rodas, scooters de mobilidade e outros equipamentos de assistência. 
+        Nossa equipe é altamente treinada e experiente em atender às necessidades dos nossos clientes, com as melhores práticas de  acessibilidade, para garantir que cada cliente seja atendido com a atenção e o cuidado que merece. Estamos empenhados em fornecer um serviço de transporte confiável e pontual, para que nossos clientes possam se concentrar em suas metas pessoais e profissionais sem se preocupar com a logística do transporte. </p>
+            
+        <p style="margin-left: 20px; margin-top:15px; text-indent: 20px;">Se você está procurando um transporte confiável e seguro para suas necessidades de mobilidade, não procure mais. Entre em contato conosco para saber mais sobre nossos serviços e como podemos ajudá-lo a se locomover com facilidade. Estamos prontos para ajudá-lo a chegar onde precisa, quando precisa!</p>
+    </div>
+
+    <script src="js/sobre.js"></script>
+</body>
+<footer>
+    <div class="wrapper">
+        <div class="row">
+            <div class="coluna-footer">
+                <h3>CANAL DE ATENDIMENTO</h3>
+                <p.footer>(15) 3236-1234</p>
+            </div>
+            <div class="coluna-footer">
+                <h3>ENDEREÇO</h3>
+                <p.footer>R. Pedro Oliveira Neto, 98 - Jd. Panorama - 
+                    CEP 18.030-329 - Sorocaba/SP</p>
+                    <p.footer>© 2023| Todos os Direitos Reservados.</p>
+            </div>
+            <div class="coluna-footer">
+                <h3>HORÁRIO DE ATENDIMENTO</h3>
+                <p.footer>Segunda à Sexta das 8h às 17h</p>
+            </div>
         </div>
-        <div class="footer--item area2">
-          <b>Quer trabalhar com a gente?</b>
-        </div>
-        <div class="footer--item area3">
-          <div class="area-branca">
-            <p>Então mande seu currículo para nós!</p>
-            <a href="https://rocky.gupy.io" target="blank"
-              ><button class="button">Enviar currículo</button></a
-            >
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="assets/js/slideshow.js"></script>
-  </body>
+    </div>
+</footer>
+
 </html>
